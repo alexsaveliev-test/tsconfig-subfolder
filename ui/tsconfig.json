@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es5", // don't generate "class" statements, etc.
+    "module": "es6", // generate "import" statements which will be processed by webpack
+    "moduleResolution": "node",
+    "baseUrl": "web_modules",
+    "lib": ["es2016", "dom"],
+    "jsx": "react",
+    "strictNullChecks": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
